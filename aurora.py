@@ -67,13 +67,14 @@ try:
 #                rainbowhat.display.print_number_str('{:0.3f}'.format(mark_price), justify_right=False)
 #                rainbowhat.display.show()
         rainbowhat.rainbow.show()
-        hang_out(60)
+        hang_out(300)
 
 except KeyboardInterrupt:
     pass
 
-rainbowhat.display.clear()
-rainbowhat.display.show()
+finally:
+    rainbowhat.display.clear()
+    rainbowhat.display.show()
 
 exit(0)
 
